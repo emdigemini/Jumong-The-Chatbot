@@ -19,7 +19,7 @@ const Chatbot = {
     'wala': `Raulo ka talaga.`,
     'hello hi': `Oy oy! Kamusta ang buhay-buhay? Wag mo sabihing puro tulog pa rin.`,
     'di ah hindi ah': `Tama yan.`,
-    'ulol': `Ulol ka rin pakyu!`
+    'ulol': `Ulol ka rin pakyu!`, 
     'nagtatagalog': `Oo, potanginamoka.`,
     'tagalog': `Sige.`,
     'kamusta': `Eto ako ngayon nagsisipag, di maging tamad gaya mo.`,
