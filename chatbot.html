@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chatbot</title>
+    <style>
+      .js-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+        gap: 10px;
+      }
+
+      .inputBox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 10px 0;
+        display: flex;
+        width: 100%;
+        gap: 10px;
+        background: #Fff;
+      }
+
+      .inputBox input {
+        padding: 10px 6px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #666;
+      }
+
+      .inputBox input:focus {
+        outline: none;
+      }
+
+      .inputBox button {
+        border-radius: 6px;
+        border: 1px solid #262626;
+        padding: 5px 15px;
+        cursor: pointer;
+        background: rgb(93, 174, 13);
+        color: #Fff;
+      }
+
+      .msg {
+        border: 1px solid #666;
+        padding: 10px 5px;
+        border-radius: 8px;
+      }
+
+      .chatLine {
+        margin-top: 30px;
+        gap: 0px;
+      }
+
+      .botChat {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 5px;
+        padding: 10px 0;
+        width: 100%;
+      }
+
+      .userChat{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 5px;
+        padding: 10px 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="js-container"></div>
+    <script src="https://unpkg.com/supersimpledev/dayjs.js"></script>
+
+    <script src="https://unpkg.com/supersimpledev/react.js"></script>
+    <script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
+
+    <script src="https://unpkg.com/supersimpledev/babel.js"></script>
+    <script type="text/babel" src="chatbot.jsx"></script>
+  </body>
+</html>
